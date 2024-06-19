@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomPasswordGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="interface">
+        <h1>Generate random password</h1>
+        <div class="length">
+            <h2>Password length: </h2>
+            <input type="range" min="1" max="40" value="1" id="slider" class="slider">
+            <div class="value">40</div>
+        </div>
+        <div class="includers">
+            <ul>
+                <li><img id="uppercase-img"src="Images/uppercase.png" width="25px">Uppercase letters</li>
+                <li><img id="uppercase-img" src="Images/lowercase.png" width="25px">Lowercase letters</li>
+                <li id="num-list"><img id="numbers-img"src="Images/numbers.png" width="25px">Numbers</li>
+                <li id="sym-list"><img id="uppercase-img"src="Images/symbols.png"width="25px">Symbols</li>
+            </ul>
+    <div class="checkbox-list">
+        <input type="checkbox" id="check-1" class="toggle">
+        <input type="checkbox" id="check-2" class="toggle">
+        <input type="checkbox" id="check-3" class="toggle">
+        <input type="checkbox" id="check-4" class="toggle">
+    </div>
+
+    <h3>Generated Password: </h3>
+    <div class="pass">
+        <p id="password-text"></p>
+        <!-- <img id="copybutton"src="images/copy.png"> -->
+      <div class="copy">
+        <button id="copybutton">Copy</button>
+      </div> 
+        </div>
+        <button id="generateNew">Generate</button>
+        <img src="Images/wand.png" id="wand">
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>

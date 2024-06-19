@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    transform: translateY(-20px);
+}
+
+.interface {
+    width: 90%;
+    max-width: 470px;
+    background-color: #505050;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 15px;
+    color: #c4c4c49d;
+}
+
+input {
+    background-color: #c4c4c49d;
+    width: 100%;
+    height: 12px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.value {
+    transform: translateY(-10px);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+#uppercase-img {
+    transform: translate(-10px, 7px);
+}
+
+#numbers-img {
+    transform: translate(-10px, 9px);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.buttons button {
+    width: 20px;
+    margin: 14px;
+    transform: translateY(-200px);
+}
+
+.checkbox-list {
+    float: right;
+    height: 20px;
+    width: 20px;
+    transform: translateY(-195px);
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    margin-bottom: 16px;
+    height: 18px;
+}
+
+h3 {
+    transform: translateY(5px);
+    text-align: left;
+    font-size: 15px;
+    color: #c4c4c49d;
+}
+
+.pass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #6d6d6d;
+    padding: 0 10px;
+    /* Added padding to make space for text */
+}
+
+#generateNew {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -100px;
+    transform: translateY(20px);
+    border-radius: 14px;
+    background: #3ea346;
+    color: #fff;
+    font-size: 15px;
+}
+
+#generateNew:hover {
+    background: #198b25;
+}
+
+#wand {
+    width: 30px;
+    margin: 0px;
+    padding:0px;
+    transform: translate(130px, -5px);
+}
+
+#password-text {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.copy button {
+    font-size: 0.8rem;
+    cursor: pointer;
+    background-color: #ffffff94;
+    color:#000000;
+    border-radius:6px;
+}
+.copy button:hover {
+    font-size: 0.8rem;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+    border-radius: 6px;
+}
